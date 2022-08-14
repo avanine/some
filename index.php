@@ -1,11 +1,7 @@
 <?php
-require 'config/config.php';
+include("includes/header.php");
+session_destroy();
 ?>
-<html>
-    <head>
-        <title>Social Media</title>
-    </head>
-    <body>
         Hello!
     </body>
 </html>
