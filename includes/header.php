@@ -34,3 +34,5 @@ if (isset($_SESSION['username'])) {
                 <a href="#"><i class="fa-lg fa-solid fa-gear"></i></a>
             </nav>
         </div>
+
+        <div class="wrapper">

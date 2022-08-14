@@ -10,6 +10,7 @@
 
 body {
     line-height: 17px;
+    background-color: #f5f6fa;
 }
 
 .top_bar {
@@ -20,6 +21,8 @@ body {
     border-bottom: 0.25em solid #f78fb3;
     margin: 0 0 10px 0;
     display: inline-flex;
+    position: fixed;
+    z-index: 10;
 }
 
 .logo a {
@@ -59,4 +62,40 @@ i {
     padding-right: 5px;
     padding-left: 5px;
     margin-top: 10px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    top: 50px;
+    position: relative;
+    padding: 0 10px;
+    width: 75%;
+    min-width: 950px;
+}
+
+.column {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #dcdde1;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px #dcdde1;
+    z-index: -1;
+}
+
+.user_details {
+    width: 260px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.user_details img {
+    height: 125px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.user_details_left_right {
+    width: 125px;
+    display: inline-block;
+    position: absolute;
 }
