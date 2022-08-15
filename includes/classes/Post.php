@@ -13,7 +13,7 @@ class Post {
         $body = strip_tags($body);
         $body = mysqli_real_escape_string($this->con, $body);
 
-        $body = str_replace('\r\n', '\n', $body);
+        $body = str_replace('\r\n', "\n", $body);
         $body = nl2br($body);
 
         $check_empty = preg_replace('/\s+/', '', $body); //deletes all spaces
