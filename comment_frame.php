@@ -143,6 +143,8 @@
             </div>
         <?php 
         }
+    } else {
+        echo "<center><br><br>No comments to show!</center>";
     }
 
     ?>
