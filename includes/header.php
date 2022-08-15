@@ -12,7 +12,7 @@ if (isset($_SESSION['username'])) {
 <html>
     <head>
         <title>Social Media</title>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="assets/js/bootstrap.js"></script>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
